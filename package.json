@@ -1,0 +1,22 @@
+{
+  "name": "multiplex_calculator",
+  "version": "1.0.0",
+  "description": "App for playing around with different backends",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alex-thornbury/multiplex_calculator.git"
+  },
+  "author": "alex thornbury",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alex-thornbury/multiplex_calculator/issues"
+  },
+  "homepage": "https://github.com/alex-thornbury/multiplex_calculator#readme",
+  "workspaces":[
+    "client"
+  ]
+}
