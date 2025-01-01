@@ -16,7 +16,7 @@
     "url": "https://github.com/alex-thornbury/multiplex_calculator/issues"
   },
   "homepage": "https://github.com/alex-thornbury/multiplex_calculator#readme",
-  "workspaces":[
+  "workspaces": [
     "client"
   ]
 }

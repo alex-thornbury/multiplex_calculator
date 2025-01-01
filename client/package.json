@@ -12,6 +12,11 @@
   "dependencies": {
     "nuxt": "^3.15.0",
     "vue": "latest",
-    "vue-router": "latest"
+    "vue-router": "latest",
+     "@mdi/font": "^7.4.47"
+  },
+  "devDependencies": {
+    "vite-plugin-vuetify": "^2.0.4",
+    "vuetify": "^3.7.6"
   }
 }
