@@ -1,5 +1,17 @@
+<script setup lang="ts">
+const { calculatorOptions } = defineProps<{
+    calculatorOptions: String[],
+}>()
+
+defineEmits(['calcChange'])
+
+
+
+</script>
+
 <template>
-  <div>
-    <h1>Option select to tell the app which calculator to use</h1>
-  </div>
+    <div>
+        <v-autocomplete label="Select Calculator" :items="calculatorOptions"
+            @update:model-value="$emit('calcChange', $event)"></v-autocomplete>
+    </div>
 </template>

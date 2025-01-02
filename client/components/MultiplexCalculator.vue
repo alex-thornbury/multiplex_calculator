@@ -1,6 +1,14 @@
+<script setup lang="ts">
+const selectCalculator = (selectedCalculator: string) => {
+    console.log(selectedCalculator)
+}
+
+const calculatorOptions = ['BRO', 'WHAT']
+</script>
+
 <template>
     <div class="calculator-container d-flex flex-column justify-space-between">
-        <SelectCalculator />
+        <SelectCalculator :calculator-options="calculatorOptions" @calc-change="selectCalculator" />
         <ResultDisplay />
         <ExecuteCalculation />
     </div>
