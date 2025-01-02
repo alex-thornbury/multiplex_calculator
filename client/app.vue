@@ -10,11 +10,3 @@
     </v-app>
   </NuxtLayout>
 </template>
-
-<style scoped>
-.my-style {
-  min-height: 300px;
-  border: 10px solid red;
-
-}
-</style>
